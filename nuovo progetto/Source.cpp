@@ -5,8 +5,6 @@
 using namespace std;
 
 int generateRandomNumbers(int min, int max) {
-    // Seed the random number generator with the current time
-    //std::srand(static_cast<unsigned>(std::time(nullptr)));
         int randomNumber = min + (std::rand() % (max - min + 1));
 		return randomNumber;
 }
